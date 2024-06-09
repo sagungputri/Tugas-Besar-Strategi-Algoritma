@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Making Problem Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Change Making Problem</h1>
+        <h3>Menggunakan Greedy dan Dynamic Programming</h3>
+        <div class="input-container">
+            <label for="coins">Masukkan koin yang tersedia (pisah menggunakan spasi):</label>
+            <input id="coins" placeholder="e.g., 1 5 10 25" />
+        </div>
+        <div class="input-container">
+            <label for="amount">Besarnya uang yang ingin ditukar:</label>
+            <input id="amount" placeholder="e.g., 100" />
+        </div>
+        <button onclick="solveProblem()">Solve</button>
+    </div>
+    <div class="resultContainer" id = "results" style="display:none;"></div>
+    <script src="script.js"></script>
+</body>
+</html>
